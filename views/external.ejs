@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">  
+    <title>
+        Social Media
+    </title>
+</head>
+
+<body>
+    <%- include('./partials/nav') %>
+        <h1>
+            Follow us on Social Media  
+        </h1>
+        <% external.forEach(element => { %>
+            <h3><%= element.website%>: <%= element.link%></h3>
+        <%});%>
+</body>
+
+</html>

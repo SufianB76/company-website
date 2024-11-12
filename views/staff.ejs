@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>
+        Staff
+    </title>
+</head>
+
+<body class="staff">
+    <%- include('./partials/nav') %>
+        <h1 class="staff-h1">
+            Digimarketing Staff
+        </h1>
+        <% staff.forEach(element=> { %>
+            <div class="staff-div">
+                <h3 class="staff-h3">
+                    <%= element.title %> - <%= element.name%>
+                </h3>
+                <p class="staff-p">
+                    <%=element.about %>
+                </p>
+            </div>
+            <%});%>
+</body>
+
+</html>

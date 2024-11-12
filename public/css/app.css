@@ -1,0 +1,80 @@
+/* @import url(‘https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap’); */
+
+.home {
+    background-image: url('https://www.shutterstock.com/image-vector/business-growth-arrow-digital-on-600nw-2212305545.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-h1, .home-p{
+    color: White;
+    font-weight: bold;
+    font-family: 'Turret Road';
+    text-align: center;
+}
+.home-h1{
+    font-size: 100px;
+}
+.home-p{
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: lightblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+
+.history {
+    background-image: url('https://t4.ftcdn.net/jpg/08/32/57/63/360_F_832576353_cuIGISOxDQFe5z16vZrnEmIDJrK1hDC9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history-h1, .history-p{
+    color: darkblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.history-h1{
+    font-size: 100px;
+}
+.history-p{
+    font-size: 20px;
+}
+.staff{
+    background-image: url('https://cdn.washingtontechnology.com/media/img/cd/2022/04/20/DHAprotestWT20220420/860x394.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.staff-h1, .staff-h3, .staff-p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.staff-h1{
+    font-size: 100px;
+    color: lightskyblue;
+}
+.staff-h3{
+    font-size: 40px;
+}
+.staff-p{
+    font-size: 20px;
+}
+
+.staff-div{
+    background-color: lightskyblue;
+    border-radius: 50px;
+    margin-inline: 25%;
+}
