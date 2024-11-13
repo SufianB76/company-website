@@ -16,9 +16,11 @@
             Previous Projects 
         </h1>
         <% portfolio.forEach(element => { %>
-            <h3 class="portfolio-h3"><%= element.project%></h3>
+            <div class="portfolio-div"><h3 class="portfolio-h3"><%= element.project%></h3>
             <p class="portfolio-p"><%=element.timeSpan%></p>
-            <p><%= element.rating%></p> 
+            <p class="portfolio-p"><%= element.rating%></p>
+            <img src="<%= element.URL %>" alt="<%= element.project %> image" class="port-img1">
+        </div> 
         <%});%>
 </body>
 

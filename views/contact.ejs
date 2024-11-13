@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/app.css">  
+    <link rel="stylesheet" href="/css/app.css">
     <title>
         Contact
     </title>
@@ -13,12 +13,14 @@
 <body class="contact">
     <%- include('./partials/nav') %>
         <h1 class="contact-h1">
-            Contact Us  
+            Contact Us
         </h1>
-        <% contact.forEach(element => { %>
-            <h3 class="contact-h3">Email: <%= element.email%></h3>
-            <h3>Phone: <%= element.phone%></h3>
-        <%});%>
+        <% contact.forEach(element=> { %>
+            <h3 class="contact-h3">Email: <%= element.email%>
+            </h3>
+            <p class="contact-p">Phone: <%= element.phone%>
+            </p>
+            <%});%>
 </body>
 
 </html>

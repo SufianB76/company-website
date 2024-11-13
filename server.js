@@ -8,26 +8,26 @@ app.use(express.static('public')); //tells express to try to match requests with
 const MARKETING = {
     name: 'Digimarketing',
     address: '232 Digimon Rd, Dragonview, AN 33442',
-    history: 'loream - fill in later',
+    history: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Curabitur sit amet mauris. Ut ultricies arcu vel risus. Vivamus euismod odio vitae velit fermentum, et sollicitudin tortor mollis. Aenean eget nisi volutpat, fermentum libero a, tempor nisi. Nulla facilisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Curabitur sit amet mauris. Ut ultricies arcu vel risus. Vivamus euismod odio vitae velit fermentum, et sollicitudin tortor mollis. Aenean eget nisi volutpat, fermentum libero a, tempor nisi. Nulla facilisi.',
     staff: [
-        {name: 'Tai', title: 'CEO', about : '1' },
-        {name: 'Matt', title: 'MD', about: '2' },
-        {name: 'Kevin', title: 'ED', about: '3' },
-        {name: 'Sara', title: 'VP', about: '4' },
-        {name: 'Chloe', title: 'Intern', about: '5' }
+        { name: 'Tai', title: 'CEO', URL: 'https://i.postimg.cc/xTNJVztf/person-1.jpg', about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.' },
+        { name: 'Matt', title: 'MD', URL: 'https://i.postimg.cc/rmd0yRMN/person-4.jpg', about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.' },
+        { name: 'Kevin', title: 'ED', URL: 'https://i.postimg.cc/3NmkmMyy/person-5.jpg', about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.' },
+        { name: 'Sara', title: 'VP', URL: 'https://i.postimg.cc/y8XN7X9H/person-3.jpg', about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.' },
+        { name: 'Chloe', title: 'Intern', URL: 'https://i.postimg.cc/j5k5Gxfn/person-2.jpg', about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.' }
     ],
     portfolio: [
-        {project: 1, timeSpan: 1, rating: 0},
-        {project: 2, timeSpan: 2, rating: 1},
-        {project: 3, timeSpan: 3, rating: 2}
+        { project: 'McDonalds',  timeSpan: '48 hours from meeting to completion!', rating: '5★', URL: 'https://i.postimg.cc/Gt5xZx2H/mickeyds.jpg' },
+        { project: 'Pink Hydration', timeSpan: '24 hours from meeting to completion!', rating: '5★', URL: 'https://i.postimg.cc/0ymzs0Qh/lustersas.jpg' },
+        { project: 'Coca-Cola', timeSpan: '24 hours from meeting to completion!', rating: '5★', URL: 'https://i.postimg.cc/vB8Fjz1r/coke-ads.jpg' }
     ],
     external: [
-        {website: 'facebook', link: 'www.facebook.com'},
-        {website: 'instagram', link: 'www.instagram.com'},
-        {website: 'youtube', link: 'www.youtube.com'}
+        { website: 'facebook', link: 'www.facebook.com/digimarketing' },
+        { website: 'instagram', link: 'www.instagram.com/digimarketing' },
+        { website: 'youtube', link: 'www.youtube.com/digimarketing' }
     ],
     contact: [
-        {email: 'Digimarketing@gmail.com', phone: '555-555-5555'}
+        { email: 'Digimarketing@gmail.com', phone: '555-555-5555' }
     ]
 };
 
