@@ -10,13 +10,13 @@
     </title>
 </head>
 
-<body>
+<body class="external">
     <%- include('./partials/nav') %>
-        <h1>
+        <h1 class="external-h1">
             Follow us on Social Media  
         </h1>
         <% external.forEach(element => { %>
-            <h3><%= element.website%>: <%= element.link%></h3>
+            <h3 class="external-h3"><%= element.website%>: <%= element.link%></h3>
         <%});%>
 </body>
 

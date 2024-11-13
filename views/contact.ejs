@@ -10,13 +10,13 @@
     </title>
 </head>
 
-<body>
+<body class="contact">
     <%- include('./partials/nav') %>
-        <h1>
+        <h1 class="contact-h1">
             Contact Us  
         </h1>
         <% contact.forEach(element => { %>
-            <h3>Email: <%= element.email%></h3>
+            <h3 class="contact-h3">Email: <%= element.email%></h3>
             <h3>Phone: <%= element.phone%></h3>
         <%});%>
 </body>

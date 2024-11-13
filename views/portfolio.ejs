@@ -10,14 +10,14 @@
     </title>
 </head>
 
-<body>
+<body class="portfolio">
     <%- include('./partials/nav') %>
-        <h1>
+        <h1 class="portfolio-h1">
             Previous Projects 
         </h1>
         <% portfolio.forEach(element => { %>
-            <h3><%= element.project%></h3>
-            <p><%=element.timeSpan%></p>
+            <h3 class="portfolio-h3"><%= element.project%></h3>
+            <p class="portfolio-p"><%=element.timeSpan%></p>
             <p><%= element.rating%></p> 
         <%});%>
 </body>
